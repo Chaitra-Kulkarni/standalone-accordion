@@ -5,6 +5,7 @@ import LoadMore from "./pages/LoadMore";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import Root from "./components/Root";
+import Posts from "./pages/Posts";
 
 const router = createBrowserRouter([
   {
@@ -30,10 +31,14 @@ const router = createBrowserRouter([
       {
         path: "/portfolio",
         element: <Portfolio />
+      },
+      {
+        path: "/posts",
+        element: <Posts />
       }
     ]
   }
-])
+]);
 
 const App = () => {
   return <RouterProvider router={router} />
