@@ -8,3 +8,7 @@ export interface PostItemProps {
     body: string;
     tags: [];
 }
+
+export interface TweetValueProps {
+    tweet: string;
+}

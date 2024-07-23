@@ -6,6 +6,7 @@ import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import Root from "./components/Root";
 import Posts from "./pages/Posts";
+import Tweet from "./pages/Tweet";
 
 const router = createBrowserRouter([
   {
@@ -35,6 +36,10 @@ const router = createBrowserRouter([
       {
         path: "/posts",
         element: <Posts />
+      },
+      {
+        path: "/tweet",
+        element: <Tweet />
       }
     ]
   }
