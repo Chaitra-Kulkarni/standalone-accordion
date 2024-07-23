@@ -9,6 +9,7 @@ const Root = () => {
         <NavLink className={({isActive}) => isActive ? 'font-medium text-cyan-100' : ''} to="/load-more">Load More</NavLink>
         <NavLink className={({isActive}) => isActive ? 'font-medium text-cyan-100' : ''} to="/portfolio">Portfolio</NavLink>
         <NavLink className={({isActive}) => isActive ? 'font-medium text-cyan-100' : ''} to="/posts">Posts</NavLink>
+        <NavLink className={({isActive}) => isActive ? 'font-medium text-cyan-100' : ''} to="/tweet">Tweet</NavLink>
       </nav>
       <main>
         <Outlet />
